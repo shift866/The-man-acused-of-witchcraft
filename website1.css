@@ -1,0 +1,50 @@
+
+html {
+    /* Setting a base font size of 10px give us easier rem calculations
+       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+    */
+    font-size: 10px;
+  }
+  
+  body {
+    font-style: oblique;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
+  
+  h2 {
+    font-size: 3.25rem;
+  }
+  
+  a {
+    color: #ff0000;
+  }
+  
+  #main {
+    
+    background: rgb(233, 254, 255);
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #img-div {
+    padding: 10px;
+    margin: 0;
+  }
+  
+  #img-caption {
+    margin: 15px 0 5px 0;
+  }
